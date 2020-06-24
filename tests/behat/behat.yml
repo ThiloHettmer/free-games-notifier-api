@@ -1,0 +1,10 @@
+# behat.yml
+default:
+  autoload:
+    '': 'tests/behat/bootstrap'
+  suites:
+    default:
+      contexts:
+        - fileContext
+        - userContext
+      paths: [ "%paths.base%/features" ]

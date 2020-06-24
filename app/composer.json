@@ -1,0 +1,17 @@
+{
+  "type": "project",
+  "description": "free-games-notifier",
+  "require": {
+    "php": "^7.4",
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.1"
+  },
+  "require-dev": {
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Offers\\": "src/offers"
+    }
+  }
+}

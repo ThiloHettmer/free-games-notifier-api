@@ -1,0 +1,6 @@
+# Ignore Folders
+.idea/*
+db/
+
+# Ignore Files
+.env
